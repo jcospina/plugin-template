@@ -1,6 +1,6 @@
 {
-  "name": "@tint/plugin-supply-chain",
-  "version": "1.0.3-beta.1",
+  "name": "@joq/standalone-template",
+  "version": "1.0.0",
   "main": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "license": "Apache-2.0",
