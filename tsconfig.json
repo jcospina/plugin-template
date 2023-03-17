@@ -1,0 +1,18 @@
+{
+  "extends": "@backstage/cli/config/tsconfig.json",
+  "include": [
+    "src",
+    "dev",
+    "jest.config.js"
+  ],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "dist-types",
+    "rootDir": ".",
+    "strict": true,
+    "sourceMap": true,
+    "types": ["@types/jest"],
+    "typeRoots": ["../../node_modules/@types", "src/@types"]
+  }
+}
